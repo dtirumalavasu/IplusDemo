@@ -31,6 +31,7 @@ public class DelarController {
 			mv.addObject("msg", "DelarValues successfully Registered");
 		} else {
 			mv.addObject("msg", "DelarValues not Registered");
+			System.out.println(mv);
 		}
 
 		return mv;
