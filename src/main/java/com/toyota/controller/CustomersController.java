@@ -31,7 +31,9 @@ public class CustomersController {
 		} else {
 			mv.addObject("msg", "registration Failure");
 		}
+		System.out.println("-------------------"+mv);
 		return mv;
+		
 	}
 
 	@RequestMapping(value = "/clogin", method = RequestMethod.GET)
